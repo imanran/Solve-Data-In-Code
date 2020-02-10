@@ -1,17 +1,17 @@
-# Solve Data In Code
+# Succinct Cybernetics
 
 All decidable problems can be solved with algorithms. For all we know, humans
 are Turing machines.
 
-Most problems can be structured into a **graph**. Graphs have vertices (entities
+Most problems can be structured into a **graph**. [Graphs](/graph/Readme.md) have vertices (entities
 holding data) and edges (from one vertex to another, sometimes with a value).
 
-Many problems can be structured into a **tree**. Trees are connected graphs
+Many problems can be structured into a **tree**. [Trees](/tree/Readme.md) are connected graphs
 without cycles. Most trees we use are rooted: one vertex is the entry point (the
 root); it is the only vertex with no edge pointing to it, all other have exactly
 one. Many trees are ordered: vertices order their children like a list.
 
-Some problems can be structured into a **list**. Lists are rooted trees where a
+Some problems can be structured into a **list**. [Lists](/list/Readme.md) are rooted trees where a
 maximum of one child is allowed.
 
 A few problems can be structured into a **map**. Maps are directed graphs where
@@ -22,3 +22,23 @@ edge coming from a key (values).
 single edge coming from them.)
 
 Another structure is a **set**. Sets are graphs with no edges.
+
+## Index
+
+1. [Complexity](/Complexity.md)
+2. [Graphs](/graph/Readme.md)
+3. [Trees](/tree/Readme.md)
+4. [Lists](/list/Readme.md)
+5. Misc:
+    - [Memory](/misc/memory.md)
+    - [Time](/misc/time.md)
+    - [Network](/misc/network.md)
+    - [Synchronization](/misc/synchronization.md)
+    - [Reliability](/misc/reliability.md)
+    - [Statistics](/misc/statistics.md)
+    - [Cryptography](/misc/cryptography.md)
+    - [Engineering](/misc/engineering.md)
+
+## Going further
+
+- [Introduction to Algorithms](https://mitpress.mit.edu/books/introduction-algorithms)
